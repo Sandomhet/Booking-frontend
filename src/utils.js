@@ -12,8 +12,6 @@ export const login = (credential) => {
     if (response.status >= 300) {
       throw Error("Fail to log in");
     }
-    
-    
     return response.json();
   });
 };
