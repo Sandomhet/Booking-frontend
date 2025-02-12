@@ -16,7 +16,6 @@ export const login = (credential) => {
   });
 };
 
-
 export const register = (credential) => {
   const registerUrl = `${domain}/auth/register`;
   return fetch(registerUrl, {
